@@ -149,3 +149,46 @@ hr {
   flex-wrap: wrap;
   margin: 15px -5px;
 }
+
+/* Laptop and bigger screen */
+@media only screen and (min-width: 1025px) {
+  .list-container {
+    width: 90vw;
+    margin: -10px auto;
+  }
+  hr {
+    display: none;
+  }
+  .card-detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+    height: fit-content;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    /* margin-top: 0.2em; */
+    margin-bottom: 1em;
+    padding-bottom: 15px;
+  }
+  .logo-container {
+    position: static;
+    margin-right: 3em;
+  }
+  .company-logo {
+    height: fit-content;
+  }
+}
+
+/* very small mobile like galaxy fold 2 */
+@media only screen and (max-width: 330px) {
+  .name-pill-container {
+    flex-wrap: wrap;
+  }
+}
