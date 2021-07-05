@@ -1,0 +1,151 @@
+:root {
+  /* ### Primary */
+  --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+  /* ### Neutral */
+  --Light-Grayish-Cyan-Background: hsl(180, 52%, 96%);
+  --Light-Grayish-Cyan-Filter-Tablets: hsl(180, 31%, 95%);
+  --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+  --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+picture,
+h1,
+p,
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  font-family: "Spartan", sans-serif;
+  background-color: var(--Light-Grayish-Cyan-Background);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.list-container {
+  height: fit-content;
+  margin: 20px auto;
+  padding: 20px;
+  align-items: center;
+  width: 98vw;
+}
+
+.header {
+  background-color: var(--Desaturated-Dark-Cyan);
+  height: 156px;
+}
+.header-svg {
+  height: 156px;
+  width: 100%;
+}
+.card-container {
+  background-color: white;
+  height: fit-content;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  padding: 5px 40px;
+  border-left: 5px solid var(--Desaturated-Dark-Cyan);
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.company-name {
+  color: var(--Desaturated-Dark-Cyan);
+  font-weight: 700;
+  font-size: 1em;
+  margin-right: 10px;
+}
+.company-logo {
+  height: 60px;
+}
+.logo-container {
+  position: absolute;
+  top: -35px;
+  left: 20px;
+}
+.card-detail-container {
+  margin-left: -20px;
+  margin-top: 30px;
+}
+.new-pill {
+  padding: 10px;
+  background-color: var(--Desaturated-Dark-Cyan);
+  border-radius: 15px;
+  font-size: 0.7em;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px;
+  font-weight: 700;
+}
+.featured-pill {
+  padding: 10px;
+  background-color: var(--Very-Dark-Grayish-Cyan);
+  border-radius: 15px;
+  font-size: 0.7em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.job-title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1em;
+  color: var(--Very-Dark-Grayish-Cyan);
+  margin: 10px auto;
+}
+.job-detail {
+  color: var(--Dark-Grayish-Cyan);
+  font-weight: 500;
+  font-size: 0.8em;
+}
+.name-pill-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.job-detail-container {
+  display: flex;
+  flex-direction: row;
+}
+hr {
+  margin: 15px auto;
+  border-top: 1px solid var(--Dark-Grayish-Cyan);
+}
+.tags {
+  padding: 10px;
+  background-color: var(--Light-Grayish-Cyan-Background);
+  color: var(--Desaturated-Dark-Cyan);
+  font-weight: 700;
+  margin: 5px;
+}
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px -5px;
+}
