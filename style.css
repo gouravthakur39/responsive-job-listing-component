@@ -58,10 +58,66 @@ body {
 .header {
   background-color: var(--Desaturated-Dark-Cyan);
   height: 156px;
+  margin-bottom: 30px;
+  position: relative;
 }
 .header-svg {
   height: 156px;
   width: 100%;
+}
+
+.filtered-card {
+  background: #fff;
+  height: fit-content;
+  width: 88%;
+  margin: 0 auto;
+  /* padding: 2rem 0; */
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateY(80%);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.tags-container-filtered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+  height: 6.25em;
+  padding: 0.5em;
+}
+.tags-filtered {
+  padding: 10px;
+  background-color: var(--Light-Grayish-Cyan-Background);
+  color: var(--Desaturated-Dark-Cyan);
+  font-weight: 700;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.filtered-cancel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.cancel {
+  width: 20px;
+  background-color: var(--Desaturated-Dark-Cyan);
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+.cancel:hover {
+  background-color: var(--Very-Dark-Grayish-Cyan);
+}
+a {
+  text-decoration: none;
 }
 .card-container {
   background-color: white;
