@@ -32,6 +32,7 @@ $(document).ready(function () {
     $(".card-container").not(ror).hide();
     $(".card-container").not(vue).hide();
     $(".card-container").not(django).hide();
+    // $(".filtered-cancel-container").not(frontend).hide();
     css.show();
     javascript.show();
     junior.show();
@@ -48,6 +49,65 @@ $(document).ready(function () {
     ror.show();
     vue.show();
     django.show();
+  });
+
+  $(".tags-container .tags").on("click", function () {
+    var frontendTag = $('.filtered-cancel-container[data-frontendTag="' + this.id + '"]');
+    var juniorTag = $('.filtered-cancel-container[data-juniorTag="' + this.id + '"]');
+    var cssTag = $('.filtered-cancel-container[data-cssTag="' + this.id + '"]');
+    var jsTag = $('.filtered-cancel-container[data-jsTag="' + this.id + '"]');
+    var fullstackTag = $('.filtered-cancel-container[data-fullstackTag="' + this.id + '"]');
+    var reactTag = $('.filtered-cancel-container[data-reactTag="' + this.id + '"]');
+    var seniorTag = $('.filtered-cancel-container[data-seniorTag="' + this.id + '"]');
+    var saasTag = $('.filtered-cancel-container[data-saasTag="' + this.id + '"]');
+    var midweightTag = $('.filtered-cancel-container[data-midweightTag="' + this.id + '"]');
+    var pythonTag = $('.filtered-cancel-container[data-pythonTag="' + this.id + '"]');
+    var htmlTag = $('.filtered-cancel-container[data-htmlTag="' + this.id + '"]');
+    var rubyTag = $('.filtered-cancel-container[data-rubyTag="' + this.id + '"]');
+    var backendTag = $('.filtered-cancel-container[data-backendTag="' + this.id + '"]');
+    var rorTag = $('.filtered-cancel-container[data-rorTag="' + this.id + '"]');
+    var vueTag = $('.filtered-cancel-container[data-vueTag="' + this.id + '"]');
+    var djangoTag = $('.filtered-cancel-container[data-djangoTag="' + this.id + '"]');
+
+    $(".filtered-cancel-container").not(frontendTag).hide();
+    $(".filtered-cancel-container").not(juniorTag).hide();
+    $(".filtered-cancel-container").not(cssTag).hide();
+    $(".filtered-cancel-container").not(jsTag).hide();
+    $(".filtered-cancel-container").not(fullstackTag).hide();
+    $(".filtered-cancel-container").not(reactTag).hide();
+    $(".filtered-cancel-container").not(seniorTag).hide();
+    $(".filtered-cancel-container").not(saasTag).hide();
+    $(".filtered-cancel-container").not(midweightTag).hide();
+    $(".filtered-cancel-container").not(pythonTag).hide();
+    $(".filtered-cancel-container").not(htmlTag).hide();
+    $(".filtered-cancel-container").not(rubyTag).hide();
+    $(".filtered-cancel-container").not(backendTag).hide();
+    $(".filtered-cancel-container").not(rorTag).hide();
+    $(".filtered-cancel-container").not(vueTag).hide();
+    $(".filtered-cancel-container").not(djangoTag).hide();
+
+
+
+    frontendTag.show();
+    juniorTag.show();
+    cssTag.show();
+    jsTag.show();
+    fullstackTag.show();
+    reactTag.show();
+    seniorTag.show();
+    saasTag.show();
+    midweightTag.show();
+    pythonTag.show();
+    htmlTag.show();
+    rubyTag.show();
+    backendTag.show();
+    rorTag.show();
+    vueTag.show();
+    djangoTag.show();
+
+
+
+
   });
 });
 
