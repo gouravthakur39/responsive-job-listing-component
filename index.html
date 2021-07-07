@@ -112,7 +112,7 @@
       </div>
 
       <div class="list-container">
-        <div class="card-container">
+        <div class="card-container" data-css="css" data-javascript="javascript" data-html="html" data-frontend="frontend" data-senior="senior" >
           <div class="logo-container">
             <img class="company-logo" src="./images/photosnap.svg" />
           </div>
@@ -135,17 +135,23 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Frontend</span>
-                <span class="tags">Senior</span>
-                <span class="tags">HTML</span>
-                <span class="tags">CSS</span>
-                <span class="tags">JavaScript</span>
+                <span class="tags" id="frontend" onclick="tagClicked()"
+                  >Frontend</span
+                >
+                <span class="tags" id="senior" onclick="tagClicked()"
+                  >Senior</span
+                >
+                <span class="tags" id="html" onclick="tagClicked()">HTML</span>
+                <span class="tags" id="css" onclick="tagClicked()">CSS</span>
+                <span class="tags" id="javascript" onclick="tagClicked()"
+                  >JavaScript</span
+                >
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" data-midweight="midweight" data-fullstack="fullstack" data-react="react" data-python="python">
           <div class="logo-container">
             <img class="company-logo" src="./images/manage.svg" />
           </div>
@@ -168,16 +174,16 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Fullstack</span>
-                <span class="tags">Midweight</span>
-                <span class="tags">Python</span>
-                <span class="tags">React</span>
+                <span class="tags" id="fullstack" onclick="tagClicked()">Fullstack</span>
+                <span class="tags" id="midweight" onclick="tagClicked()">Midweight</span>
+                <span class="tags" id="python" onclick="tagClicked()">Python</span>
+                <span class="tags" id="react" onclick="tagClicked()">React</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" data-junior="junior" data-frontend="frontend" data-react="react" data-saas="saas" >
           <div class="logo-container">
             <img class="company-logo" src="./images/account.svg" />
           </div>
@@ -199,16 +205,16 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Frontend</span>
-                <span class="tags">Junior</span>
-                <span class="tags">React</span>
-                <span class="tags">Sass</span>
+                <span class="tags"  id="frontend" onclick="tagClicked()">Frontend</span>
+                <span class="tags"  id="junior" onclick="tagClicked()">Junior</span>
+                <span class="tags"  id="react" onclick="tagClicked()">React</span>
+                <span class="tags"  id="saas" onclick="tagClicked()">Saas</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" data-css="css" data-javascript="javascript" data-junior="junior" data-frontend="frontend">
           <div class="logo-container">
             <img class="company-logo" src="./images/myhome.svg" />
           </div>
@@ -229,16 +235,16 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Frontend</span>
-                <span class="tags">Junior</span>
-                <span class="tags">CSS</span>
-                <span class="tags">JavaScript</span>
+                <span class="tags" id="frontend" onclick="tagClicked()">Frontend</span>
+                <span class="tags" id="junior" onclick="tagClicked()">Junior</span>
+                <span class="tags" id="css" onclick="tagClicked()">CSS</span>
+                <span class="tags" id="javascript" onclick="tagClicked()">JavaScript</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" data-ruby="ruby" data-saas="saas" data-javascript="javascript"  data-fullstack="fullstack" data-midweight="midweight">
           <div class="logo-container">
             <img class="company-logo" src="./images/loop-studios.svg" />
           </div>
@@ -259,17 +265,17 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Fullstack</span>
-                <span class="tags">Midweight</span>
-                <span class="tags">JavaScript</span>
-                <span class="tags">Ruby</span>
-                <span class="tags">Sass</span>
+                <span class="tags" id="fullstack">Fullstack</span>
+                <span class="tags" id="midweight">Midweight</span>
+                <span class="tags" id="javascript">JavaScript</span>
+                <span class="tags" id="ruby">Ruby</span>
+                <span class="tags" id="saas">Saas</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" data-ruby="ruby" data-junior="junior" data-backend="backend"  data-ror="ror" >
           <div class="logo-container">
             <img class="company-logo" src="./images/faceit.svg" />
           </div>
@@ -290,16 +296,16 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Backend</span>
-                <span class="tags">Junior</span>
-                <span class="tags">Ruby</span>
-                <span class="tags">RoR</span>
+                <span class="tags" id="backend">Backend</span>
+                <span class="tags" id="junior">Junior</span>
+                <span class="tags" id="ruby">Ruby</span>
+                <span class="tags" id="ror">RoR</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" data-frontend="frontend" data-junior="junior" data-html="html" data-javascript="javascript" data-saas="saas">
           <div class="logo-container">
             <img class="company-logo" src="./images/shortly.svg" />
           </div>
@@ -320,17 +326,17 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Frontend</span>
-                <span class="tags">Junior</span>
-                <span class="tags">HTML</span>
-                <span class="tags">JavaScript</span>
-                <span class="tags">Sass</span>
+                <span class="tags" id="frontend">Frontend</span>
+                <span class="tags" id="junior">Junior</span>
+                <span class="tags" id="html">HTML</span>
+                <span class="tags" id="javascript">JavaScript</span>
+                <span class="tags" id="saas">Saas</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" data-frontend="frontend" data-junior="junior" data-javascript="javascript" data-vue="vue" data-saas="saas">
           <div class="logo-container">
             <img class="company-logo" src="./images/insure.svg" />
           </div>
@@ -351,17 +357,17 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Frontend</span>
-                <span class="tags">Junior</span>
-                <span class="tags">JavaScript</span>
-                <span class="tags">Vue</span>
-                <span class="tags">Sass</span>
+                <span class="tags" id="frontend">Frontend</span>
+                <span class="tags" id="junior">Junior</span>
+                <span class="tags" id="javascript">JavaScript</span>
+                <span class="tags" id="vue">Vue</span>
+                <span class="tags" id="saas">Saas</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" data-fullstack="fullstack" data-midweight="midweight" data-javascript="javascript" data-python="python" data-django="django">
           <div class="logo-container">
             <img class="company-logo" src="./images/eyecam-co.svg" />
           </div>
@@ -382,17 +388,17 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Fullstack</span>
-                <span class="tags">Midweight</span>
-                <span class="tags">JavaScript</span>
-                <span class="tags">Python</span>
-                <span class="tags">Django</span>
+                <span class="tags" id="fullstack">Fullstack</span>
+                <span class="tags" id="midweight">Midweight</span>
+                <span class="tags" id="javascript">JavaScript</span>
+                <span class="tags" id="python">Python</span>
+                <span class="tags" id="django">Django</span>
               </div>
             </div>
           </div>
-        </div>
+        </div> 
 
-        <div class="card-container">
+        <div class="card-container" data-frontend="frontend" data-junior="junior" data-javascript="javascript" data-react="react" data-saas="saas">
           <div class="logo-container">
             <img
               class="company-logo"
@@ -416,11 +422,11 @@
             <hr />
             <div>
               <div class="tags-container">
-                <span class="tags">Frontend</span>
-                <span class="tags">Junior</span>
-                <span class="tags">JavaScript</span>
-                <span class="tags">React</span>
-                <span class="tags">Sass</span>
+                <span class="tags" id="frontend" onclick="tagClicked()">Frontend</span>
+                <span class="tags" id="junior" onclick="tagClicked()">Junior</span>
+                <span class="tags" id="javascript" onclick="tagClicked()">JavaScript</span>
+                <span class="tags" id="react" onclick="tagClicked()">React</span>
+                <span class="tags" id="saas" onclick="tagClicked()">Saas</span>
               </div>
             </div>
           </div>
@@ -428,4 +434,9 @@
       </div>
     </div>
   </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
 </html>

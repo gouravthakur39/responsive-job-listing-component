@@ -80,6 +80,7 @@ body {
   transform: translateY(80%);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   z-index: 9999;
+  display: none;
 }
 
 .tags-container-filtered {
@@ -107,11 +108,13 @@ body {
   margin-right: 10px;
 }
 .cancel {
-  width: 20px;
+  width: 32px;
   background-color: var(--Desaturated-Dark-Cyan);
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   margin-left: -20px;
+  /* border-radius: 0% 50% 50% 0% / 0% 50% 50% 0%; */
+
 }
 .cancel:hover {
   background-color: var(--Very-Dark-Grayish-Cyan);
@@ -175,6 +178,10 @@ a {
   color: var(--Very-Dark-Grayish-Cyan);
   margin: 10px auto;
 }
+.job-title:hover {
+  color: var(--Desaturated-Dark-Cyan);
+  cursor: pointer;
+}
 .job-detail {
   color: var(--Dark-Grayish-Cyan);
   font-weight: 500;
@@ -199,6 +206,11 @@ hr {
   color: var(--Desaturated-Dark-Cyan);
   font-weight: 700;
   margin: 5px;
+}
+.tags:hover {
+  color: #fff;
+  background-color: var(--Desaturated-Dark-Cyan);
+  cursor: pointer;
 }
 .tags-container {
   display: flex;
