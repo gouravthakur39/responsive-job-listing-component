@@ -126,7 +126,7 @@ function tagClicked() {
     filteredCard.style.display = "block";
     listContainer.style.margin = "20px auto";
   } else {
-    filteredCard.style.display = "none";
-    listContainer.style.margin = "-20px auto";
+    // filteredCard.style.display = "none";
+    // listContainer.style.margin = "-20px auto";
   }
 }
