@@ -113,8 +113,6 @@ body {
   padding: 5px;
   margin-bottom: 12px;
   margin-left: -20px;
-  /* border-radius: 0% 50% 50% 0% / 0% 50% 50% 0%; */
-
 }
 .cancel:hover {
   background-color: var(--Very-Dark-Grayish-Cyan);

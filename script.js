@@ -52,22 +52,46 @@ $(document).ready(function () {
   });
 
   $(".tags-container .tags").on("click", function () {
-    var frontendTag = $('.filtered-cancel-container[data-frontendTag="' + this.id + '"]');
-    var juniorTag = $('.filtered-cancel-container[data-juniorTag="' + this.id + '"]');
+    var frontendTag = $(
+      '.filtered-cancel-container[data-frontendTag="' + this.id + '"]'
+    );
+    var juniorTag = $(
+      '.filtered-cancel-container[data-juniorTag="' + this.id + '"]'
+    );
     var cssTag = $('.filtered-cancel-container[data-cssTag="' + this.id + '"]');
     var jsTag = $('.filtered-cancel-container[data-jsTag="' + this.id + '"]');
-    var fullstackTag = $('.filtered-cancel-container[data-fullstackTag="' + this.id + '"]');
-    var reactTag = $('.filtered-cancel-container[data-reactTag="' + this.id + '"]');
-    var seniorTag = $('.filtered-cancel-container[data-seniorTag="' + this.id + '"]');
-    var saasTag = $('.filtered-cancel-container[data-saasTag="' + this.id + '"]');
-    var midweightTag = $('.filtered-cancel-container[data-midweightTag="' + this.id + '"]');
-    var pythonTag = $('.filtered-cancel-container[data-pythonTag="' + this.id + '"]');
-    var htmlTag = $('.filtered-cancel-container[data-htmlTag="' + this.id + '"]');
-    var rubyTag = $('.filtered-cancel-container[data-rubyTag="' + this.id + '"]');
-    var backendTag = $('.filtered-cancel-container[data-backendTag="' + this.id + '"]');
+    var fullstackTag = $(
+      '.filtered-cancel-container[data-fullstackTag="' + this.id + '"]'
+    );
+    var reactTag = $(
+      '.filtered-cancel-container[data-reactTag="' + this.id + '"]'
+    );
+    var seniorTag = $(
+      '.filtered-cancel-container[data-seniorTag="' + this.id + '"]'
+    );
+    var saasTag = $(
+      '.filtered-cancel-container[data-saasTag="' + this.id + '"]'
+    );
+    var midweightTag = $(
+      '.filtered-cancel-container[data-midweightTag="' + this.id + '"]'
+    );
+    var pythonTag = $(
+      '.filtered-cancel-container[data-pythonTag="' + this.id + '"]'
+    );
+    var htmlTag = $(
+      '.filtered-cancel-container[data-htmlTag="' + this.id + '"]'
+    );
+    var rubyTag = $(
+      '.filtered-cancel-container[data-rubyTag="' + this.id + '"]'
+    );
+    var backendTag = $(
+      '.filtered-cancel-container[data-backendTag="' + this.id + '"]'
+    );
     var rorTag = $('.filtered-cancel-container[data-rorTag="' + this.id + '"]');
     var vueTag = $('.filtered-cancel-container[data-vueTag="' + this.id + '"]');
-    var djangoTag = $('.filtered-cancel-container[data-djangoTag="' + this.id + '"]');
+    var djangoTag = $(
+      '.filtered-cancel-container[data-djangoTag="' + this.id + '"]'
+    );
 
     $(".filtered-cancel-container").not(frontendTag).hide();
     $(".filtered-cancel-container").not(juniorTag).hide();
@@ -86,8 +110,6 @@ $(document).ready(function () {
     $(".filtered-cancel-container").not(vueTag).hide();
     $(".filtered-cancel-container").not(djangoTag).hide();
 
-
-
     frontendTag.show();
     juniorTag.show();
     cssTag.show();
@@ -104,10 +126,6 @@ $(document).ready(function () {
     rorTag.show();
     vueTag.show();
     djangoTag.show();
-
-
-
-
   });
 });
 
